@@ -1,4 +1,5 @@
-# Annual-Session-2021
+# UNIBUC Annual Scientific Session
+## June 2021 Edition
 
 Presentation for the *The Annual Scientific Meeting for the Faculty of Physics (June 2021)*. [Event webpage](http://fizica.unibuc.ro/SSFFB/Section.php?SectID=202).
 
