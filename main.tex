@@ -26,14 +26,32 @@
 \tableofcontents
 \section{Introduction}
 \end{frame}
-  \begin{frame}
-    \frametitle{This is the first slide}
-  \end{frame}
+\begin{frame}
+    \frametitle{Example of columns 1}
+    \begin{columns}[c] % the "c" option specifies center vertical alignment
+    \column{.45\textwidth} % column designated by a command
+     Contents of the first column
+    \column{.45\textwidth}
+     Contents split \newline into two lines
+    \end{columns}
+\end{frame}
 
 \section{Nuclear Deformation}
-  \begin{frame}
-    \frametitle{This is the second slide}
-  \end{frame}
+\begin{frame}
+
+   \begin{block}{This is a Block}
+      This is important information
+   \end{block}
+
+   \begin{alertblock}{This is an Alert block}
+   This is an important alert
+   \end{alertblock}
+
+   \begin{exampleblock}{This is an Example block}
+   This is an example 
+   \end{exampleblock}
+
+\end{frame}
 \section{Triaxial nuclei}
 
   \begin{frame}
