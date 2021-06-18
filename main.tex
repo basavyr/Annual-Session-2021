@@ -231,7 +231,7 @@ Considering the \emph{energy function} as the average of the Hamiltonian on the 
   \begin{block}{Harmonic frequencies}
   \begin{itemize}
       \item The energy function is \emph{minimal} in the point $\mathcal{P}_{min}$ when $A_1<(A_2,A_3)$.
-      \item Linearizing $\mathcal{H}$ around $\mathcal{P}$:
+      \item Linearizing the equations of motion around the minimum point of $\mathcal{H}$, one obtains a harmonic motion for the system, with the \emph{frequencies} given by:
   \begin{align}
     \Omega^4+B\Omega^2+C=0 \label{omegaeq}
   \end{align}
@@ -243,23 +243,17 @@ Considering the \emph{energy function} as the average of the Hamiltonian on the 
 \begin{frame}{Semiclassical wobbling energies}
 \begin{block}{Harmonic Frequencies II}
 \begin{itemize}
-    \item The two real and positive solutions for Eq. \ref{omegaeq}: $\Omega_1$ and $\Omega_2$ are called \emph{the wobbling solutions}.
+    \item The two real and positive solutions for Eq. \ref{omegaeq}: $\Omega_1$ and $\Omega_2$ are called \emph{the wobbling frequencies}.
     \item They represent the harmonic-like behavior of the wobbling motion in odd-A nuclei.
   \item In our model, the pair of frequencies $({\color{blue}\Omega_1^I},{\color{red}\Omega_{2}^I})$ is associated with the rotational motion of the {\color{blue}core} and the {\color{red}odd particle}, respectively.
 \end{itemize}
 \end{block}
-\end{frame}
-
-\begin{frame}{Semiclassical energies for the wobbling nucleus}
-  %The excitation energies for a band is given in terms of the minimal energy function plus the \emph{zero-point} motion, accordingly:
-  \begin{align}
-    E_I^\text{TSD1}&={\color{cyan}\epsilon_{13/2}}+{\color{red}\mathcal{H_{I,\text{min}}}(13/2)}+{\color{blue}\frac{1}{2}\left(\Omega_1^I+\Omega_{1'}^I\right)},\ I=13/2, 17/2,\dots\\
-    E_I^\text{TSD2}&={\color{cyan}\epsilon_{13/2}}+{\color{red}\mathcal{H_{I,\text{min}}}(13/2)}+{\color{blue}\frac{1}{2}\left(\Omega_1^I+\Omega_{1'}^I\right)},\ I=27/2, 31/2,\dots\\
-    E_I^\text{TSD3}&={\color{cyan}\epsilon_{13/2}}+{\color{red}\mathcal{H_{I-1,\text{min}}}(13/2)}+{\color{magenta}\frac{1}{2}\left(3\Omega_1^{I-1}+\Omega_{1'}^{I-1}\right)},\ I=33/2, 37/2,\dots\\
-    E_I^\text{TSD4}&={\color{cyan}\epsilon_{9/2}}+{\color{red}\mathcal{H_{I,\text{min}}}(9/2)}+{\color{blue}\frac{1}{2}\left(\Omega_2^I+\Omega_{2'}^I\right)},\ I=47/2, 51/2,\dots
+\begin{alertblock}{Energy spectrum}
+\begin{align}
+    E_I&={\color{cyan}\epsilon_{j}}+{\color{magenta}\mathcal{H}_\text{min}(I)}+{\color{blue}\Omega_1^I\left(n_{w_1}+\frac{1}{2}\right)+\Omega_2^I\left(n_{w_2}+\frac{1}{2}\right)}
   \end{align} 
-  with each term representing: {\color{cyan}{single particle energy}}, the {\color{red}energy in the minimum point} and {\color{blue}zero-point energy}*.
-  \par {\color{magenta} TSD3 has a one-phonon excitation built on top of TSD2.}
+  Terms: {\color{cyan}{single particle energy}}, {\color{magenta}energy in the minimum point} and {\color{blue}harmonic-like motion}.
+\end{alertblock}
 \end{frame}
 
 \section{Results}  
