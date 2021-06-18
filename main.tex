@@ -51,7 +51,7 @@
     \begin{block}{Nuclear surface - axially-symmetric shape}
     \begin{itemize}
     \item The shape of the nucleus can be described via the \textit{deformation parameters} $\beta,\gamma$. 
-    \item They arise from the shape parameterization of the nuclear surface.
+    \item They arise from the shape parametrization of the nuclear surface.
     \begin{align}
         R(\theta,\phi)=R_0\left(1+\sum_{\lambda=2}^{\infty}\sum_{\mu=0}^{\lambda}\alpha_{\lambda\mu}Y_{\lambda\mu}(\theta,\phi)\right)
     \end{align}
@@ -252,7 +252,7 @@ Considering the \emph{energy function} as the average of the Hamiltonian on the 
 \end{block}
 \begin{alertblock}{Energy spectrum}
 \begin{align}
-    E_I&={\color{cyan}\epsilon_{j}}+{\color{magenta}\mathcal{H}_\text{min}(I)}+\left[{\color{blue}\Omega_1^I\left(n_{w_1}+\frac{1}{2}\right)}+{\color{red}\Omega_2^I\left(n_{w_2}+\frac{1}{2}\right)}\right]
+    E_I&={\color{cyan}\epsilon_{j}}+{\color{magenta}\mathcal{H}_\text{min}(I)}+\left[{\color{blue}\Omega_1^I\left(n_{w_1}+\frac{1}{2}\right)}+{\color{red}\Omega_2^I\left(n_{w_2}+\frac{1}{2}\right)}\right] \label{wobbling_formula}
   \end{align} 
   Terms: {\color{cyan}{single particle energy}}, {\color{magenta}energy in the minimum point} and [harmonic-like motion].
 \end{alertblock}
@@ -260,8 +260,8 @@ Considering the \emph{energy function} as the average of the Hamiltonian on the 
 
 \section{New results for Au wobblers}  
 \begin{frame}
-\textit{S. Nandi et. al. (PRC 2020)} - First Observation of Multiple Transverse Wobbling Bands in $^{183}$Au.
     \frametitle{{\footnotesize \emph{preliminary}} Results for $^{183}$Au}
+\textit{S. Nandi et. al. (PRC, 132501, 2020)} - First Observation of Multiple Transverse Wobbling Bands in $^{183}$Au.
     \begin{columns}[c] 
     \column{.5\textwidth}
      \begin{figure}
@@ -278,6 +278,24 @@ Considering the \emph{energy function} as the average of the Hamiltonian on the 
          \label{au183positive}
      \end{figure}
     \end{columns}
+\end{frame}
+
+\begin{frame}{Fitting the model}
+    We tested our formalism by fitting the expression of the energy formula (Eq. \ref{wobbling_formula}) to the experimental data.
+    \begin{block}{Parametrization: negative parity bands}
+    \begin{itemize}
+    \item The odd-particle: $h_{j=9/2}$ proton.
+    \item ground-state band: $(n_{w_1},n_{w_2})=(0,0)$.
+    \item second wobbling band: $(n_{w_1},n_{w_2})=(1,0)$.
+    \end{itemize}
+    \end{block}
+    \begin{block}{Parametrization: positive parity bands}
+    \begin{itemize}
+    \item The odd-particle: $i_{j=13/2}$ proton.
+    \item ground-state band: $(n_{w_1},n_{w_2})=(0,0)$.
+    \item second wobbling band: $(n_{w_1},n_{w_2})=(1,0)$.
+    \end{itemize}
+    \end{block}
 \end{frame}
 
 \section{Conclusions}
