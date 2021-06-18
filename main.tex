@@ -212,9 +212,14 @@
 \begin{frame}{Energy function - Semiclassical approach}
       The eigenvalues for $\hat{H}=H_{rot}+H_{sp}$ are obtained by solving the \emph{variational principle}:
   \begin{align}
-    \delta \int_0^t\bra{\Psi_{IjM}}\hat{H}-i\frac{\partial}{\partial t'}\ket{\Psi_{IjM}}dt'=0.
+    \delta \int_0^t\bra{\Psi_{IjM}}\hat{H}-i\frac{\partial}{\partial t'}\ket{\Psi_{IjM}}dt'=0. \label{varp}
   \end{align}
   The trial function $\ket{\Psi_{IjM}}$ is a direct product $\ket{\psi}_\text{core}\otimes\ket{\phi}_\text{s.p.}$.
+    From Eq. \ref{varp}, one obtains the \emph{classical equations of motion} in the canonical form:
+  \begin{align}
+    \frac{\partial \mathcal{H}}{\partial r}=\dot{\varphi}\ ;\ \frac{\partial\mathcal{H}}{\partial\varphi}=-\dot{r}\\
+    \frac{\partial \mathcal{H}}{\partial t}=\dot{\psi}\ ;\ \frac{\partial\mathcal{H}}{\partial \psi}=-\dot{t}
+  \end{align}
 \end{frame}
 
 
@@ -223,27 +228,26 @@ Considering the \emph{energy function} as the average of the Hamiltonian on the 
   \begin{align}
     \mathcal{H}\equiv\bra{\Psi_{IjM}}H\ket{\Psi_{IjM}}
   \end{align}
-  \begin{block}{Dispersion equation}
+  \begin{block}{Harmonic frequencies}
   \begin{itemize}
-      \item The energy function is \emph{minimal} - $\mathcal{H}_{I,\text{min}}$ - in the point $\mathcal{P}_{min}$ when $A_1<(A_2,A_3)$.
+      \item The energy function is \emph{minimal} in the point $\mathcal{P}_{min}$ when $A_1<(A_2,A_3)$.
       \item Linearizing $\mathcal{H}$ around $\mathcal{P}$:
   \begin{align}
-    \Omega^4+B\Omega^2+C=0
+    \Omega^4+B\Omega^2+C=0 \label{omegaeq}
   \end{align}
   \item $B$ and $C$ being some expressions which depend on the inertia factors, single particle potential strength $V$ and the triaxiality parameter $\gamma$.
   \end{itemize}  
   \end{block}
 \end{frame}
 
-\begin{frame}{Semiclassical wobbling frequencies}
-  Under some restrictions for the MOIs, the dispersion equation in variable $\Omega$ admits two real and positive solutions.\\
-  \par \emph{Wobbling solutions:}
-  \begin{align}
-    (\Omega_1^I,\Omega_{1'}^I)\\
-    (\Omega_2^I,\Omega_{2'}^I)
-  \end{align}
-  which are the solutions denoted for corresponding coupling of the rotor with $j=i_{13/2}$ and $j=h_{9/2}$, respectively.
-  \par In our model(s), the pair of frequencies $({\color{blue}\Omega_k^I},{\color{red}\Omega_{k'}^I})$ is associated with the rotational motion of the {\color{blue}core} and the {\color{red}odd particle}, respectively.
+\begin{frame}{Semiclassical wobbling energies}
+\begin{block}{Harmonic Frequencies II}
+\begin{itemize}
+    \item The two real and positive solutions for Eq. \ref{omegaeq}: $\Omega_1$ and $\Omega_2$ are called \emph{the wobbling solutions}.
+    \item They represent the harmonic-like behavior of the wobbling motion in odd-A nuclei.
+  \item In our model, the pair of frequencies $({\color{blue}\Omega_1^I},{\color{red}\Omega_{2}^I})$ is associated with the rotational motion of the {\color{blue}core} and the {\color{red}odd particle}, respectively.
+\end{itemize}
+\end{block}
 \end{frame}
 
 \begin{frame}{Semiclassical energies for the wobbling nucleus}
